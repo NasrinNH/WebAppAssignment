@@ -1,0 +1,13 @@
+.personal-api-input {
+  margin: 10px;
+}
+
+.personal-api-button {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.personal-api-container {
+  display: flex;
+  justify-content: space-around;
+}

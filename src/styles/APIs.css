@@ -1,0 +1,8 @@
+.api-container {
+  margin: 10px 100px;
+}
+
+.ready-api {
+  display: flex;
+  justify-content: space-around;
+}

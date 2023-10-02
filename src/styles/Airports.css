@@ -1,0 +1,12 @@
+.airport-result {
+  height: 120px;
+}
+
+form label {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.ready-api-input {
+  margin: 10px;
+}

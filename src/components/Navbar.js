@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-import ReorderIcon from "@material-ui/icons/Reorder";
+import { FaStream } from "react-icons/fa";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -20,12 +20,12 @@ function Navbar() {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          <ReorderIcon />
+          <FaStream />
         </button>
       </div>
       <div className="links">
         <Link to="/"> Home </Link>
-        <Link to="/projects"> Projects </Link>
+        <Link to="/projects"> Test APIs </Link>
         <Link to="/experience"> Experience </Link>
       </div>
     </div>

@@ -1,5 +1,8 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Experience from "./pages/Experience";
+import APIs from "./pages/APIs";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -8,7 +11,11 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Routes>{/* <Route path="/" element={<Home />} /> */}</Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<APIs />} />
+          <Route path="/experience" element={<Experience />} />
+        </Routes>
         <Footer />
       </Router>
     </div>
